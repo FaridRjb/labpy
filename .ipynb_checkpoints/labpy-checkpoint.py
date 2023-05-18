@@ -7,8 +7,6 @@ def err_func(f, err_vars):
     ----------
     f : sympy expression
         Function f(x) that its error function is to be calculated.
-    variables : array_like
-        All variables in f(x) as sympy.Symbol.
     err_vars : array_like
         All variables that have error in f(x) as sympy.Symbol.
     
